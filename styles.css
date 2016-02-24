@@ -1,0 +1,158 @@
+body,
+button,
+input,
+select,
+textarea {
+    color: #303538;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+body {
+    background: #fff;
+}
+
+.container {
+    text-align: center;
+    width: 85%;
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.site-header {
+    background: #303538;
+    color: #fff;
+}
+
+.site-title {
+    font-size: 5rem;
+    line-height: 2em;
+    margin-top: -30px;
+    margin-bottom: 0px;
+    font-weight: 100;
+}
+
+.site-description {
+    font-size: 1.25rem;
+    line-height: 2em;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    color: #ccc;
+}
+
+.profPic {
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 20%;
+}
+
+.site-links a {
+    margin: 5px;
+    color: #fff;
+}
+
+.course-list {
+    margin-top: 20px
+}
+.course-list p {
+    margin-top: -20px;
+    font-size: .85em;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fe-masters-title{
+    display: inline;
+}
+@media only screen and (max-width: 900px) {
+    
+    body,
+    button,
+    input,
+    select,
+    textarea {
+        font-size: 1.8rem;
+    }
+
+    .site-title {
+        font-size: 4rem;
+        letter-spacing: -1px;
+    }
+
+    .site-description {
+        font-size: 1.5rem;
+        line-height: 1.5em;
+    }
+
+    .entry-meta {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 4.8rem;
+        text-indent: -2px;
+    }
+
+    h2 {
+        font-size: 3.8rem;
+    }
+
+    h3 {
+        font-size: 3.3rem;
+    }
+
+    h4 {
+        font-size: 2.8rem;
+    }
+}
+
+
+@media only screen and (max-width: 575px) {
+    .profPic {
+        width: 30%
+    }
+    .container {
+        width: auto;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .site-title {
+        font-size: 2rem;
+    }
+
+    .site-description {
+        font-size: 1rem;
+        margin-top: -20px;
+    }
+
+    h1, h2 {
+        font-size: 3rem;
+        line-height: 1.1em;
+        letter-spacing: -1px;
+    }
+
+    h3 {
+        font-size: 2.8rem;
+    }
+
+    h4 {
+        font-size: 2.3rem;
+    }
+}
