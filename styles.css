@@ -71,9 +71,21 @@ body {
 
 .info-section {
     display: inline;
-    width: 33%;
+    width: 25%;
 }
 
+.info-header {
+    margin-bottom: 0px;
+}
+
+.info-body {
+    margin-top: 0px;
+    line-height: 1.2em;
+}
+
+.info-section a, .info-section a:visited {
+    color: #3b3b3b;
+}
 
 .course-list {
     margin-top: 20px
