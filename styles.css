@@ -63,18 +63,24 @@ body {
     color: #fff;
 }
 
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.info-section {
+    display: inline;
+    width: 33%;
+}
+
+
 .course-list {
     margin-top: 20px
 }
 .course-list p {
     margin-top: -20px;
     font-size: .85em;
-}
-
-.info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .fe-masters-title{
