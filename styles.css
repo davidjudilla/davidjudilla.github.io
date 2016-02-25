@@ -93,9 +93,9 @@ body {
 .course-list {
     margin-top: 20px
 }
+
 .course-list p {
     margin-top: -10px;
-
 }
 
 .fe-master-header {
@@ -202,6 +202,8 @@ body {
     }
 
     .info-body {
+        max-width: 300px;
+        margin: 10px    auto;
         font-size: 1.25rem;
         line-height: 1.75rem;
     }
