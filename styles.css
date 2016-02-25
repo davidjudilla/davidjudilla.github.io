@@ -67,20 +67,23 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-family: Georgia, "Palatino Linotype", "Times New Roman"
 }
 
 .info-section {
-    display: inline;
-    width: 25%;
+    max-width: 300px;
+    border-bottom: medium solid #3b3b3b;
 }
 
 .info-header {
     margin-bottom: 0px;
+    border-bottom: medium solid #3b3b3b;
 }
 
 .info-body {
-    margin-top: 0px;
-    line-height: 1.2em;
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.3em;
 }
 
 .info-section a, .info-section a:visited {
@@ -91,14 +94,15 @@ body {
     margin-top: 20px
 }
 .course-list p {
-    margin-top: -20px;
-    font-size: .85em;
+    margin-top: -10px;
+
 }
 
-.fe-masters-title{
-    display: inline;
+.fe-master-header {
+    display: inline-block;
 }
-@media only screen and (max-width: 900px) {
+
+@media only screen and (max-width: 954px) {
     
     body,
     button,
@@ -138,10 +142,29 @@ body {
     h4 {
         font-size: 2.8rem;
     }
+
+    .info {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .info-section {
+        max-width: initial  ;
+    }
+
+    .info-header {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .info-body {
+        font-size: 2rem;
+    }
 }
 
 
 @media only screen and (max-width: 575px) {
+
     .profPic {
         width: 30%
     }
@@ -152,11 +175,11 @@ body {
     }
 
     .site-title {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .site-description {
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin-top: -20px;
     }
 
@@ -172,5 +195,14 @@ body {
 
     h4 {
         font-size: 2.3rem;
+    }
+
+    .info-header {
+        font-size: 2rem;
+    }
+
+    .info-body {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
     }
 }
