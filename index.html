@@ -2,26 +2,33 @@
 <html>
 <head>
 	<title>David Judilla</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:300,400,500" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
 <body>
 	<article>
-		<div class="picture">
-			<img class="profilePic" src="profilePic.jpg"></img>
+		<div class="header">
+			<div><img class="profilePic" src="profilePic.jpg"></img></div>
+			<a href="https://github.com/davidjudilla">Github</a>
+			<a href="https://www.linkedin.com/in/david-judilla-01370bb3/">Linkedin</a>
+			<a href="https://twitter.com/davidjudilla">Twitter</a>
 		</div>
 		<section class="intro">
 		<h2>Hi, I'm David</h2>
 		<div>
-			I'm a soon to be graduate from CSUS. I've spent most of my life messing with computer. From playing video games to fixing up donated laptops and building my own PC, I've done it all. I've had two software development internships over the past couple summers. Learning along the way how agile teams work, while also pushing myself to be a better developer. I've become well skilled at modern day JavaScript and have a strong understanding of end to end web development.
+			I'm a soon to be graduate from CSUS. I've spent most of my life messing with computers. From playing video games to fixing up donated laptops and building my own PC, I've done it all. I've had two software development internships over the past couple summers. Learning along the way about how agile teams work, while also pushing myself to be a better developer. I've become well skilled at modern day JavaScript and have a strong understanding of end to end web development.
 		</div>
 		</section>
 		<section class="howIGotStarted">
-			<h2>How I Got Started</h2> <a href="#"><i class="openBtn fa fa-caret-square-o-right"></i></a>
+			<span class="gotStartedHeader"><h2>How I Got Started</h2> <i class="openBtn fa fa-caret-square-o-right"></i></span>
 			<div hidden>
-				I like this story because it's a corner stone for how I've got to where I am in my career. During my first internship I was taking a Caltrain from San Francisco to San Jose to visit my family. I take a seat on the first level and ask a husky looking man, around his late 20s, if I could take a seat. He obliges. As I sit down, he's in the middle of putting an Uber sticker on the lid of his laptop. I condescedingly think in my head, "This dude can't like being an Uber driver <i>that</i> much". A few moments after he finished slapping his sticker on, he turns to me and asks, "So what do you do?", in a geniune and non-condescending manner. I quickly tell him about my internship at a small startup in SoMa, in a slightly full of it tone as though not everyone on this train had a job in tech. <br>
-				He begins to tell me how great it is that I got an internship before graduation and how he just got his job as an engineer at Uber. I swear I must of had the stupidest face ever. For the rest of the ride, we discussed some of the tools we use at work, like how my company was still using JSP pages to serve up their site. I picked his brain, learning about the importance of design patterns, so that you can understand multiple approaches to problems and be able to discuss them with other engineers. He told me about React and some of the other bleeding edge tools that were releasing at the time. I was simply inspired. I wanted to be this guy. To be so well spoken about what it's like being a modern day software developer. From there I followed every web dev/js subreddit, read so many medium articles on how to get started with React, and took online workshops like Frontend Masters. I got lost in it all and I've loved every second of it to this day. All just so that I could be the best developer I could be.
+				I like this story because it's a corner stone for how I've gotten to where I am in my career. <br>
+				During my first internship I was taking a Caltrain from San Francisco to San Jose to visit my family. So I walk onto the first floor of the train and ask a husky looking guy, around his late 20s, if I could take a seat next to him. He obliges. As I sit down, he's in the middle of putting an Uber sticker on the lid of his laptop. I condescedingly think in my head, "This dude can't like being an Uber driver <i>that</i> much". A few moments after he finished slapping his sticker on, he turns to me and asks, "So what do you do?", in a geniune and non-condescending manner. I quickly tell him about my internship at a small startup in SoMa, in a slightly full of it tone as though not everyone on this train had a job in tech. <br>
+				He begins to tell me how great it is that I got an internship before graduation and how he just got his job as an engineer at Uber. I swear I must of had the stupidest look on my face. For the rest of the ride, we talked about some of the tools we used at work, like how my company was still used JSP pages to serve up their site. I continued to pick his brain, learning about the importance of design patterns, so that you can understand multiple approaches to problems and be able to discuss them with other engineers. He told me about React and some of the other tools that were coming out at the time. I was simply inspired. I wanted to be this guy. To be so well spoken about what it's like being a software developer in the city. From there I followed every web dev/js subreddit I could find. I read so many Medium articles on how to get started with React and took online workshops like Frontend Masters. I got lost in it all and I've loved every second of it to this day. All just so that I could be the best developer I could be.
 			</div>
 		</section>
 		<section class="experience">
@@ -43,8 +50,26 @@
 				QA test automation, using Python, RobotFramework, and Selenium.
 			<div>
 		</section>
-		<section class="projects"></section>
+		<section class="projects">
+			<h2>Projects</h2>
+			<h3>311 Service Request App (Hack4Sac 2016)</h3>
+			<div>Project for Sacramento County’s hackathon, Hack4Sac. Mobile-first web application, providing a simple and easy way to request municipal services in Sacramento. Utilized map APIs to set service locations and create heat maps, to locate areas with high demands of service. </div>
+			<br>
+
+			<h3>Couch Coder (HackDavis 2016, Best Developer Tool Award)</h3>
+			<div>Google Docs Add-on, turning a traditional Google Doc into a text editor. Features include syntax highlighting for popular programming languages and code compilation/execution. Useful for code collaboration and pair programming. </div>
+		</section>
 	</article>
 	<script type="text/javascript" src="main.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-97942670-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
 </body>
 </html>
