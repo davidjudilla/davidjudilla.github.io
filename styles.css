@@ -1,211 +1,38 @@
-body,
-button,
-input,
-select,
-textarea {
-    color: #303538;
-    font-family: Georgia, serif;
-    font-size: 20px;
-    line-height: 1.6em;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-    line-height: 1.4;
-    margin-top: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+article {
+	margin: 0 auto;
+	width: 600px;
 }
 
-body {
-    background: #fff;
-    margin: 0;
+section {
+	margin: 1em;
 }
 
-.container {
-    text-align: center;
-    width: 85%;
-    max-width: 700px;
-    margin: auto;
-    padding-bottom: 10px;
+.picture {
+	margin: 1em 0 0 0;
+	text-align: center;
 }
 
-.site-header {
-    background: #33404A;
-    color: #fff;
+.profilePic { 
+	border-radius: 50%;
+	height: 7em;
+	width: 7em;
 }
 
-.site-title {
-    font-size: 5rem;
-    line-height: 2em;
-    margin-top: -30px;
-    margin-bottom: 0px;
-    font-weight: 100;
+.howIGotStarted h2 {
+	display: inline-block;
 }
 
-.site-description {
-    font-size: 1.25rem;
-    line-height: 2em;
-    margin-top: -40px;
-    margin-bottom: 0px;
-    font-weight: 300;
-    color: #ccc;
+.howIGotStarted a {
+	color: black;
 }
 
-.profPic {
-    border-radius: 50%;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    width: 20%;
-}
-
-.site-links a {
-    margin: 5px;
-    color: #fff;
-}
-
-.info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    font-family: Georgia, "Palatino Linotype", "Times New Roman"
-}
-
-.info-section {
-    max-width: 350px;
-    border-bottom: thin solid #3b3b3b;
-}
-
-.info-header {
-    margin-bottom: 0px;
-    border-bottom: thin solid #3b3b3b;
-}
-
-.info-body {
-    margin-top: 10px;
-    font-size: 1rem;
-    line-height: 1.3em;
-}
-
-.info-section a, .info-section a:visited {
-    color: #3b3b3b;
-}
-
-.course-list {
-    margin-top: 20px
-}
-
-.course-list p {
-    margin-top: -10px;
-}
-
-.fe-master-header {
-    display: inline-block;
-}
-
-@media only screen and (max-width: 954px) {
-    
-    body,
-    button,
-    input,
-    select,
-    textarea {
-        font-size: 1.8rem;
-    }
-
-    .site-title {
-        font-size: 4rem;
-        letter-spacing: -1px;
-    }
-
-    .site-description {
-        font-size: 1.5rem;
-        line-height: 1.5em;
-    }
-
-    .entry-meta {
-        font-size: 1.5rem;
-    }
-
-    h1 {
-        font-size: 4.8rem;
-        text-indent: -2px;
-    }
-
-    h2 {
-        font-size: 3.8rem;
-    }
-
-    h3 {
-        font-size: 3.3rem;
-    }
-
-    h4 {
-        font-size: 2.8rem;
-    }
-
-    .info {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .info-section {
-        max-width: initial  ;
-    }
-
-    .info-header {
-        text-align: center;
-        font-size: 3rem;
-    }
-
-    .info-body {
-        font-size: 2rem;
-    }
-}
-
-
-@media only screen and (max-width: 575px) {
-
-    .profPic {
-        width: 30%
-    }
-    .container {
-        width: auto;
-        margin-left: 16px;
-        margin-right: 16px;
-    }
-
-    .site-title {
-        font-size: 3rem;
-    }
-
-    .site-description {
-        font-size: 1.5rem;
-        margin-top: -20px;
-    }
-
-    h1, h2 {
-        font-size: 3rem;
-        line-height: 1.1em;
-        letter-spacing: -1px;
-    }
-
-    h3 {
-        font-size: 1.75rem;
-    }
-
-    h4 {
-        font-size: 1.5rem;
-    }
-
-    .info-header {
-        font-size: 2rem;
-    }
-
-    .info-body {
-        max-width: 325px;
-        margin: 10px    auto;
-        font-size: 1.25rem;
-        line-height: 1.75rem;
-    }
+.howIGotStarted  .openBtn{
+	position: relative;
+    bottom: .15em
 }
